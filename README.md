@@ -12,6 +12,6 @@ Thumbnail image was created on: [place-hold.it](https://place-hold.it/)
 
 # Learning list
 
-* Say Hello with golang :check:
+* Say Hello with golang :white_check_mark:
 
 * Output an image with golang
