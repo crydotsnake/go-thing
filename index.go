@@ -7,19 +7,17 @@ import (
 )
 
 func main() {
-    // Create a blank image 100x200 pixels
+    // Erstellt ein leeres Bild mit den maßen 100x200 pixeln
     myImage := image.NewRGBA(image.Rect(0, 0, 100, 200))
 
     // outputFile is a File type which satisfies Writer interface
     outputFile, err := os.Create("test.png")
     if err != nil {
-    	// Handle error
+    	// Wenn ein fehler im programm vorhanden ist, wird er ausgegeben.
     }
 
-    // Encode takes a writer interface and an image interface
-    // We pass it the File and the RGBA
     png.Encode(outputFile, myImage)
 
-    // Don't forget to close files
+    // Schließt die Dateien.
     outputFile.Close()
 }
