@@ -16,7 +16,7 @@ func main() {
     
     outputFile, err := os.Create("test.png")
     if err != nil {
-    	// Wenn ein fehler im programm vorhanden ist, wird er ausgegeben.
+    	// If theres an error,there will be an output.
     }
 
     png.Encode(outputFile, myImage)
