@@ -3,7 +3,7 @@ A project that is written in the GO programming language, but i dont know what i
 
 # Important
 
-This is just for learning!, so dont wondering if you want any mistakes! :blush:
+This is just for learning!, so dont wondering if you see any mistakes! :blush:
 
 # Learning list
 
